@@ -80,33 +80,34 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
 }
 
 .parametro-senha-botoes{
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
-
 
 .parametro-senha__botao{
-   background-color: var(--cor-de-fundo) ;
-   color: var(--branco);
-   border: 2px solid var(--borda);
-   padding: 24px;
-   font-size: 24px;
-cursor: pointer;
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
 }
-.parametro-senha__texto{
-    border-top:2px solid var(--borda) ;
-    border-bottom:2px solid var(--borda) ;
-padding:24px ;
-margin: 0px;
-font-size: 24px;
 
+.parametro-senha__texto{
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    padding: 24px;
+    margin: 0px;
+    font-size: 24px;
 }
+
 label{
     font-size: 20px;
 }
@@ -114,30 +115,29 @@ label{
 .checkbox{
     width: 20px;
     height: 20px;
-    width: 100%;
 }
 
 .barra{
-background-color:var(--fundo-senha);
-height: 30px;
-width: 100%;
-}
-
-.forca {
+    background-color: var(--fundo-senha);
     height: 30px;
-    position: relative;
-    bottom: 30px;
+    width: 100%;
 }
 
 
-.fraca {
-width: 25%;
-background: #E71B32;
+.forca{
+height: 30px;
+position: relative;
+bottom: 30px;
 }
 
-.media {
-width: 50%;
-background-color: #FAF480;
+.fraca{
+    width: 25%;
+    background-color: #E71B32;
+}
+
+.media{
+    width: 50%;
+    background-color: #FAF408;
 }
 
 .forte{
@@ -145,13 +145,10 @@ background-color: #FAF480;
     background-color: #00FF85;
 }
 
-.parametro-senha-texto{
+.parametro-senha__texto{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
-
-
-
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
